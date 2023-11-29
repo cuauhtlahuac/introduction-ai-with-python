@@ -52,8 +52,27 @@ Seaborn is a visualization library that is built on top of Matplotlib. It provid
 
 Junto con Pytorch son utilizados para entrenar modelos.
 
-## Your first model: linear regression
+## [Your first model](./your_first_model/): linear regression
 
 Vamos a generar un archivo csv con grados Celsius y Fahrenheit y así crear el primer modelo.
 
 **CSV**: A CSV is a comma-separated values file, which allows data to be saved in a tabular format. CSVs look like a garden-variety spreadsheet but with a . csv extension. CSV files can be used with most any spreadsheet program, such as Microsoft Excel or Google Spreadsheets.
+
+## Linear regression in detail
+
+- Variable dependiente (Y axis): Por ejemplo el peso
+- Variable independiente (x axis): Estas serían la altura y la edad para calcular el peso
+
+Cada variable es una eje nuevo, por ejemplo el peso es el eje y, pero la altura sería x y edad z.
+
+Entre más variables metamos, mayor será el número de ejes en la gráfica. No lo veamos como dimensiones, pero si como vectores, y el vector principal sería el de los resultados de la predicción.
+
+y=mx+b
+
+Y = variable dependiente o dato a predecir
+m = pendiente
+x= es la variable independiente
+b=Punto de corte, o donde el eje x corta
+
+Para más información Cuadrados mínimos OLS
+
